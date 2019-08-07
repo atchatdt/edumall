@@ -1,0 +1,39 @@
+.cottrai{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 500px; 
+}
+.cottrai img {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a.anhtd h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a.anhtd:hover{
+    color: #00f;
+}
+.duoi{
+    margin-top: 10px; 
+    display: flex;
+}
+.tren2{
+    margin: 0 5px 0 5px;
+}
+
+.duoi h3{
+    font-size: 15px;
+}
+
+.duoi .nguon {
+    font-size: 15px;
+}
+.duoi .gio{
+    font-size: 15px;
+}

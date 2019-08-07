@@ -1,0 +1,85 @@
+.blog{
+   
+  
+    background: url('./images/bt.jpg') top center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+
+    
+}
+
+.blog .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:gray; 
+    opacity: 0;
+}
+.blog:hover .shadow{
+
+    opacity: 0.1;
+
+}
+
+.blog img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.chu{
+    width: 100%;
+    opacity: 0;
+    font-size: 20px;
+}
+
+.blog:hover .chu{
+    opacity: 1;
+  
+}
+
+.chunho{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.chunho::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;;
+
+    background-color: red; 
+    transition: 0.4s;
+}
+.chunho:hover::after{
+    width: 100%;
+}
+
+.chulon{
+
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    margin-top: 10px;
+   
+
+}
+.chulon::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;;
+
+    background-color: red; 
+    transition: 0.4s;
+}
+.chulon:hover::after{
+    width: 100%;
+}

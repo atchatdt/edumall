@@ -1,0 +1,28 @@
+a.chu{
+
+    position: relative;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+
+a.chu:after{ 
+
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;;
+
+    background-color: yellowgreen; 
+    transition: 0.4s;
+ }
+
+
+a.chu:hover:after{
+
+    width: 100%;
+} 

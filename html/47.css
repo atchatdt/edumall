@@ -1,0 +1,16 @@
+/*
+    khai báo biến
+*/
+:root{
+    --mauvang: yellow;
+    --maunen: gray;
+    --text_size: 11px;
+    
+}
+
+body{
+    background-color: var(--maunen);
+}
+h2{
+    font-size:var(--text_size);
+}

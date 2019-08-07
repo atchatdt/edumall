@@ -1,0 +1,44 @@
+.menu{
+
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    
+}
+
+.menu ul li a{
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414141;
+    padding: 10px 20px; 
+}
+
+.menu ul li a:after{
+
+    content: '/';
+    padding-left:20px; 
+}
+.menu ul li a:hover{
+
+    
+}
+.nut{
+    width: 180px;
+    border-radius: 30px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    color: white;
+
+    background-image: linear-gradient(to right, #9cc026, #5faf21);
+}
+.nut:hover{
+    background-image: linear-gradient(to right, #ffcd4a, #f15b26);
+}

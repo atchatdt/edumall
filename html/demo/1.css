@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font1:'Oswald', sans-serif;
+    --size1: 48px;
+    --lh1: 59px;
+}
+
+.banner_top{
+
+    background: url(1.jpg) top center;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.banner_top:before{
+    content: '';
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    background-image:-webkit-linear-gradient(left,#0000009e,#01010100 50%,#00000069 100%);
+}
+
+.banner_top ._3cot{ 
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+.banner_top ._3cot ._1cot{ 
+    width: 33.33%;
+
+}
+.banner_top ._3cot ._1cot.cottrai{ 
+
+}
+.banner_top ._3cot ._1cot.cottrai a{ 
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+
+}
+.banner_top ._3cot ._1cot.cottrai a:hover{ 
+
+    color: blue;
+}
+
+.banner_top ._3cot ._1cot.cotgiua{ 
+
+    text-align: center;
+}
+.banner_top ._3cot ._1cot.cotgiua img{ 
+    height: 50px;
+    padding-top:20px; 
+
+}
+.banner_top ._3cot ._1cot.cotphai{ 
+    text-align: right;
+    padding-right:20px;
+    padding-top: 10px;  
+
+}
+.banner_top ._3cot ._1cot.cotphai a{ 
+
+    color: white;
+    font-size: 20px;
+    padding: 15px 15px;
+    display: inline-block; 
+}
+
+.banner_top ._3cot ._1cot .icon{ 
+
+}
+
+.text_banner{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    color: white;
+}
+.text_banner .content{
+    width: 1170px;
+    margin: auto;
+}
+.text_banner .content h1{
+    font-family: var(--font1);
+    font-size: var(--size1);
+    color: white;
+    width: 50%;
+    line-height: var(--lh1);
+
+}
+/*end top*/
+.content1 {
+    width: 1170px;
+    margin: auto;
+    padding: 80px 0px; 
+    font-family: 'Amiri', serif;
+   
+    font-size: 17px;
+    color: #666;
+
+    display: flex;
+}
+.content1 .left{
+    width: 35%;
+}
+.content1 .left h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 50%;
+}
+
+.content1 .right{
+    width: 65%;
+}
+.content1 .right p{
+    line-height: 20px;
+    margin-top:20px; 
+}
+
+.content1 .right p{
+    padding-left:25px;
+
+}
+.content1 .right p:before{
+
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    left: -10px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.content1 .right p:hover:before{
+    left: 0px;
+    opacity: 1;
+}
+

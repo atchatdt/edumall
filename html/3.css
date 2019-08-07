@@ -1,0 +1,30 @@
+.to{
+    display: flex;
+    margin: auto;
+    width: 900px;
+}
+
+.to .cot1{
+    width: 15%;
+}
+.to .cot2{
+    width: 65%;
+    display: flex;
+}
+
+.to .cot2 .cot2-1{
+    width: 33.33%;
+}
+.to .cot2 .cot2-2{
+    width: 33.33%;
+}
+.to .cot2 .cot2-3{
+    width: 33.33%;
+}
+
+.to .cot3{
+    width: 20%;
+}
+img{
+    width: 100%;
+}

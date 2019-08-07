@@ -1,0 +1,29 @@
+.menutren{
+    background-color: #2FA1B3;
+    height: 30px;
+   
+}
+.menungang {
+    display: flex;
+    list-style: none;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.menungang  a{
+
+    color: white;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+    padding: 6px; 
+    transition: 0.4s;
+}
+
+ul.menungang  a:hover{
+    background-color:  red;
+    padding-top: 3px;
+    padding-bottom: 9px;
+}

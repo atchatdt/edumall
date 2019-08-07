@@ -1,0 +1,26 @@
+.bo{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    perspective: 500px;
+}
+.bo .xoay{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    left: 75px;;
+    top: 75px;
+    transition: 4s;
+}
+.bo:hover .xoay {
+    transform: rotateY(360deg);
+
+}
+.bo .khongxoay{
+    width: 450px;
+
+    position: absolute;
+    left: 130px;;
+    top: 160px;
+    transition: 0.4s;
+}

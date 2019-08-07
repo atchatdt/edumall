@@ -1,0 +1,48 @@
+body,html{
+    margin: 0;
+    height: 100%;
+  
+}
+.menu{
+    background-image: url('1.png');
+    background-size:cover; 
+    height: 100%;
+    
+}
+.menu ul li a {
+    text-decoration: none;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+.menu ul li{
+
+padding-bottom: 10px;
+transition: 0.4s;
+
+
+}
+.menu ul li .icon{
+    display: inline;
+    color: rgb(127, 172, 255);
+    opacity: 0;
+    transition: 0.4s;
+    
+}
+
+.menu ul li:hover .icon{
+
+    opacity: 1;
+}
+.menu ul li:hover {
+    margin-left: 20px; 
+}
+.menu ul li .chu{
+    display: inline;
+    color: white;
+}
+

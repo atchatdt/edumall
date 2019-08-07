@@ -1,0 +1,38 @@
+.small_news_block{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.small_news_block .left {
+    width: 20%;
+}
+
+.small_news_block .right{
+    width: 75%;
+}
+img{
+    width: 100%;
+}
+.small_news_block .right a.a1{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.small_news_block .right a.a2{
+    text-decoration: none; 
+    color: gray;
+    font-size: 11px;
+}
+
+.small_news_block .right a.a3{
+    text-decoration: none;
+    color: gray;
+    font-size: 11px;
+}
+.small_news_block .right .munutes{
+    color: gray;
+    font-size: 11px;
+}

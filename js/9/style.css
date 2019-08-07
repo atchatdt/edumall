@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;}
+
+.card {
+    transition: 0.4s;
+}
+.dichuyensangphai{
+
+    /*transition*/
+    /* transform: translateX(400px); 
+    chỉ nhiêu đây
+    */
+    animation: sangphai 2s forwards;
+}
+
+/* Định nghỉa sang phải */
+@-webkit-keyframes sangphai{
+/*     
+    from{transform: translateX(0); }
+    
+    to{transform: translateX(400px); } */
+
+    0% {transform: translateX(0);  margin-top:0; ;opacity: 1; }
+    50% {transform: translateX(400px);  margin-top:0; ;opacity: 1; }
+    100% {transform: translateX(400px); margin-top:200px; ;opacity: 0; }
+}
