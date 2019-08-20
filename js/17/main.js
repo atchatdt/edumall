@@ -8,10 +8,14 @@ document.addEventListener('DOMContentLoaded',function(){
    var viTriChungToi = chungToi.offsetTop;
    var trangThaiKhoiVang = 1; // ban đầu -> ẩn
 
+   // khoảng thời gian khối chúng tôi hiển thị
+   var khoangCachHieThi = 500;
+   var diemCuoiHieThi = viTriChungToi + khoangCachHieThi;
 
    window.addEventListener('scroll',function(){
 
     var giaTri = this.window.pageYOffset;
+    // menu
     if(giaTri > 100){
         if(trangthai == 1){
 
@@ -28,14 +32,16 @@ document.addEventListener('DOMContentLoaded',function(){
         }
      
     }
+    // hết menu
 
-    if(giaTri > viTriChungToi){
+    // vị trí khối chúng tôi
+    if(giaTri > viTriChungToi && giaTri < diemCuoiHieThi){
         if(trangThaiKhoiVang == 1){
             trangThaiKhoiVang = 2;
             chungToi.classList.add('vangdunglai');
         }
     }
-    else{
+    else  if(giaTri < viTriChungToi || giaTri > diemCuoiHieThi){
         if(trangThaiKhoiVang == 2){
             trangThaiKhoiVang = 1;
             chungToi.classList.remove('vangdunglai');
@@ -44,7 +50,25 @@ document.addEventListener('DOMContentLoaded',function(){
        
     }
 
+    // hết vị trí chúng tôi
 
+
+
+       // hiệu ứng load bằng js
+   var phanTuLoad =document.querySelector('.s3');
+   var trangThaiS3 = 0; // duoi
+   var viTriS3 = phanTuLoad.offsetTop -200;
+
+   if(giaTri > viTriS3){
+       if(trangThaiS3 == 0){
+           trangThaiS3 = 1; // đang hiển thị
+           phanTuLoad.classList.add('dilen');
+       }
+   }
    });
+
+
+
+
     
 },false);

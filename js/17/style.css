@@ -37,3 +37,13 @@
     position: fixed;
     top: 49px;
 }
+.s3{
+    opacity: 0;
+}
+.s3.dilen{
+    animation: chuyendonglen 1s ease forwards;
+}
+@-webkit-keyframes chuyendonglen{
+    from{transform: translateY(100px); opacity: 0;}
+    to{transform: translateY(0); opacity: 1;}
+}
