@@ -1,0 +1,30 @@
+._1cot{
+    position: relative;
+}
+.phanphai {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4b5156;
+    /* position: relative; */
+}
+.phanphai p{
+    padding-top: 50%;
+    font-size: 20px;
+}
+.btn-outline-primary  {
+    border-radius: 2em;
+}
+.btn-outline-secondary{
+    border-radius: 2em;
+
+}
+.footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}

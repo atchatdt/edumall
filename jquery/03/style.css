@@ -1,0 +1,37 @@
+*{padding: 0;margin: 0;}
+
+body{
+	font-family: segoe ul light;
+}
+.container{
+	text-align: center;
+}
+.hieuung{
+	width: 40%;
+	margin: auto;
+	margin-top: 100px;
+
+}
+.motkhoi h3{
+	background: #324b61; 
+	padding: 10px 15px;
+	margin: 0;
+}
+.motkhoi h3:hover{
+	background: url(images/down.PNG) no-repeat 96% #324b61;
+}
+
+ .ndmotkhoi{
+ 	margin: 0;
+	padding: 10px;
+	border: 1px solid #C2C2C2;
+	background: gray;
+}
+.motkhoi .xanh {
+	background-color: #8a0a20;
+}
+ h3.xanh:hover{
+	background-color: #8a0a20;
+	background: url(images/up.PNG) no-repeat 96% #8a0a20;
+
+}

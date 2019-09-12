@@ -1,0 +1,75 @@
+*{padding: 0;margin: 0;}
+
+.lentren {
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+    padding: 10px;
+    background: #eceaeaba;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+h2.chuto {
+    color: white;
+    font-size: 290px;
+    margin-left: 20%;
+    padding-top: 667px;
+}
+
+.chapter1,.chapter2,.chapter3,.chapter4,.chapter5,.chapter6 {
+    height: 1000px;
+    background: url(images/2.jpg);
+    background-size: cover;
+}
+.chapter2,.chapter4,.chapter6 {
+    /* background: url(images/1.png); */
+    background: url(images/1.png);
+    background-size: cover;
+}
+.noidung1, .noidung2, .noidung3,.noidung4,.noidung5,.noidung6 {
+    height: 800px;
+    padding: 50px 0;
+    text-align: center;
+    color: gray;
+}
+
+.home {
+    width: 100%;
+    height: 1000px;
+    background: url(images/3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu-tren ul {
+    margin-left: 31%;
+}
+
+.menu-tren a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 12px;
+    color: black;
+}
+
+nav.menu-tren {
+    width: 100%;
+    height: 50px;
+    background: whitesmoke;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+}
+
+.menu-tren ul li {
+    float: left;
+    list-style: none;
+}
+nav .menu-tren{
+width: 100%;
+height: 57px;
+background: whitesmoke;
+}

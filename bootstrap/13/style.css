@@ -1,0 +1,16 @@
+*{padding: 0; margin: 0;}
+
+.logo{
+    height: 34px;
+}
+.menutop{
+    background: transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.chuamenu{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
